@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<script>
+var person=(function(){
+     var sex="女神";//私有变量
+     return{
+        name:"小太阳",
+        getInfo:function(){
+            console.log("name:"+this.name+"sex:"+sex);
+            }
+          
+        }
+     })();
+	 person.getInfo()
+</script>
+</body>
+</html>
